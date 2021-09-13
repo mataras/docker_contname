@@ -1,4 +1,5 @@
 #mydockerfile
+#v1
 FROM debian:stable-20210721
 RUN apt-get update \
     && apt-get install -y nginx php php-fpm
