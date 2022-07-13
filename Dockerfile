@@ -1,6 +1,6 @@
 #mydockerfile
 #v1
-FROM debian:stable-20210721
+FROM debian:stable-20220711
 RUN apt-get update \
     && apt-get install -y nginx php php-fpm
 COPY default /etc/nginx/sites-available 
